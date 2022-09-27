@@ -34,3 +34,8 @@ header{
 #jumbotron img{
     width: 60%;
 }
+
+.custom-wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
