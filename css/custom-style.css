@@ -12,6 +12,15 @@ a{
     margin-right: .5em;
 }
 
+.box{
+    width: 100%;
+}
+
+.custom-wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* header */
 
 header{
@@ -35,7 +44,7 @@ header{
     width: 60%;
 }
 
-.custom-wrapper{
-    width: 70%;
-    margin: 0 auto;
+/* about */
+#about-us{
+    background-color: aqua;
 }
