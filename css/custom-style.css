@@ -1,5 +1,5 @@
 img{
-    max-width:100%;
+    width:100%;
 }
 
 ul{
@@ -15,10 +15,22 @@ a{
 /* header */
 
 header{
-    height: 80px;
-    line-height: 80px;
+    /* height: 80px;
+    line-height: 80px; */
     /* debug */
     background-color: aqua;
     border: 1px solid black;
 
+}
+
+/* jumbotron */
+
+#jumbotron{
+    background-color: antiquewhite;
+    border: 1px solid black;
+
+}
+
+#jumbotron img{
+    width: 60%;
 }
