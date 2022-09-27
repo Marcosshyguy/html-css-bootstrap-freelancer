@@ -21,6 +21,20 @@ a{
     margin: 0 auto;
 }
 
+.underline-star i{
+    font-size: 2rem;
+}
+
+.white-line{
+    height: 2px;
+    width: 20%;
+    background-color: black;
+}
+
+
+
+
+
 /* header */
 
 header{
