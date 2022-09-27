@@ -1,7 +1,9 @@
 :root{
-    --header-bg:
+    --header-bg:#2C3E50;
+    --primary-bg:#1ABC9C;
+    --secondary-bg:#3A546D;
 }
-
+/* common */
 img{
     width:100%;
 }
@@ -15,6 +17,30 @@ a{
     color: inherit;
     margin-right: .5em;
 }
+
+/* color and bg */
+
+.color-wh{
+    color: white;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-header{
+    background-color: var(--header-bg);
+}
+
+.bg-main{
+    background-color: var(--primary-bg);
+}
+
+.bg-footer{
+    background-color: var(--secondary-bg);
+}
+
+/* custom */
 
 .box{
     width: 100%;
@@ -51,19 +77,8 @@ header{
 
 }
 
-/* jumbotron */
 
-#jumbotron{
-    background-color: antiquewhite;
-    border: 1px solid black;
-
-}
 
 #jumbotron img{
     width: 60%;
-}
-
-/* about */
-#about-us{
-    background-color: aqua;
 }
