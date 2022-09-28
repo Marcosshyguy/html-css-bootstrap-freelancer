@@ -21,24 +21,24 @@
     <header class="bg-header color-wh position-fixed top-0 start-0">
       <div class="container-md">
         <div class="row">
-            <div class="col-10 col-md-6">
-                <div class="custom_brand">
-                    <p><strong>START BOOTSTRAP</strong></p>
-                </div>
+          <div class="col-10 col-md-6">
+            <div class="custom_brand">
+              <p><strong>START BOOTSTRAP</strong></p>
             </div>
-            
-            <div class="col-2 col-md-6 text-end">
-                <div>
-                    <i class="fa-solid fa-bars d-md-none"></i>
-                </div>
-                <ul
-                class="d-none d-md-flex align-items-md-center justify-content-md-between">
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about-us">About-Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+          </div>
 
+          <div class="col-2 col-md-6 text-end">
+            <div>
+              <i class="fa-solid fa-bars d-md-none"></i>
+            </div>
+            <ul
+              class="d-none d-md-flex align-items-md-center justify-content-md-between"
+            >
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about-us">About-Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -131,12 +131,22 @@
           <div class="row text-start g-3">
             <div class="col-12 col-md-6">
               <div class="box">
-                <p>Freelancer is a free bootrtrap theme created by Start Bootstrap. The Download includes the complete source files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy customuztion.</p>
+                <p>
+                  Freelancer is a free bootrtrap theme created by Start
+                  Bootstrap. The Download includes the complete source files
+                  including HTML, CSS, and Javascript as well as optional LESS
+                  stylesheets for easy customuztion.
+                </p>
               </div>
             </div>
             <div class="col-12 col-md-6">
               <div class="box">
-                <p>Wheter you're a student looking to showcase your work, a professional looking to attrct clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <p>
+                  Wheter you're a student looking to showcase your work, a
+                  professional looking to attrct clients, or a graphic artist
+                  looking to share your projects, this template is the perfect
+                  starting point!
+                </p>
               </div>
             </div>
           </div>
@@ -153,47 +163,24 @@
         <div class="custom-wrapper container-fluid">
           <h2>CONTACT-US</h2>
           <div
-            class="underline-star mb-3 d-flex justify-content-center align-items-center"
-          >
+            class="underline-star mb-3 d-flex justify-content-center align-items-center">
             <div class="white-line">&nbsp;</div>
             <div>
               <i class="fa-solid fa-star"></i>
             </div>
             <div class="white-line">&nbsp;</div>
           </div>
-          <div class="row text-start">
-            <div class="col-12">
-              <div class="box">
-                <p>Name</p>
-                <hr />
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="box">
-                <p>Name</p>
-                <hr />
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="box">
-                <p>Name</p>
-                <hr />
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="box"></div>
-            </div>
-            <div class="col-12">
-              <div class="box">
-                <p>Name</p>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="text-start">
+          <form action="get" class="text-start">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" id="name" class="custom_form-control mb-2">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" id="email" class="custom_form-control mb-2">
+              <label for="phoneNumber" class="form-label">Numero di Telefono</label>
+              <input type="text" id="phoneNumber" class="custom_form-control mb-2">
+              <label for="message" class="form-label">Messaggio</label>
+              <textarea name="" id="message" class="custom_form-control mb-2"></textarea>
               <button class="btn cutom_btn-primary me-auto">Send</button>
-          </div>
-
+          </form>
         </div>
       </section>
       <!-- end 3section -->
@@ -201,7 +188,7 @@
     <!-- end main -->
 
     <!-- footer -->
-    <footer class="color-wh ">
+    <footer class="color-wh">
       <!-- top-footer -->
       <div class="top-footer bg-footer custom_py-1">
         <div class="container container-sm container-lg">
@@ -209,29 +196,44 @@
             <div class="col-12 col-md-4">
               <div class="box">
                 <h5>Location</h5>
-                <p>
-                  2215 jonh Daniel Drive Clark MO 54242
-                </p>
+                <p>2215 jonh Daniel Drive Clark MO 54242</p>
               </div>
             </div>
             <div class="col-12 col-md-4">
               <div class="box d">
                 <h5>Around The Web</h5>
                 <ul
-                class="container-fluid d-flex justify-content-center align-items-center"
+                  class="container-fluid d-flex justify-content-center align-items-center"
                 >
-                  <li><i class="fa-brands fa-facebook p-2 rounded-circle border border-white mx-2"></i></li>
-                  <li><i class="fa-brands fa-google-plus-g p-2 rounded-circle border border-white mx-2"></i></li>
-                  <li><i class="fa-brands fa-twitter p-2 rounded-circle border border-white mx-2"></i></li>
-                  <li><i class="fa-brands fa-linkedin-in p-2 rounded-circle border border-white mx-2"></i></li>
+                  <li>
+                    <i
+                      class="fa-brands fa-facebook p-2 rounded-circle border border-white mx-2"
+                    ></i>
+                  </li>
+                  <li>
+                    <i
+                      class="fa-brands fa-google-plus-g p-2 rounded-circle border border-white mx-2"
+                    ></i>
+                  </li>
+                  <li>
+                    <i
+                      class="fa-brands fa-twitter p-2 rounded-circle border border-white mx-2"
+                    ></i>
+                  </li>
+                  <li>
+                    <i
+                      class="fa-brands fa-linkedin-in p-2 rounded-circle border border-white mx-2"
+                    ></i>
+                  </li>
                 </ul>
               </div>
             </div>
             <div class="col-12 col-md-4">
-                  <div class="box">
+              <div class="box">
                 <h5>About Freelancer</h5>
                 <p>
-                    Freelance is a free to use, open source Bootstrap theme created by <span><a href="">Start Bootstrap</a></span>
+                  Freelance is a free to use, open source Bootstrap theme
+                  created by <span><a href="#">Start Bootstrap</a></span>
                 </p>
               </div>
             </div>
@@ -241,7 +243,7 @@
       <!-- end top-footer -->
 
       <!-- bottom-footer -->
-      <div class="bottom-footer bg-header ">
+      <div class="bottom-footer bg-header">
         <p class="text-center">Copyright your website 2019</p>
       </div>
       <!-- end bottom-footer -->

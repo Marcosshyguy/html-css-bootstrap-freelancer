@@ -73,6 +73,19 @@ a{
     color: white;
 }
 
+
+/* custom-form */
+.custom_form-control{
+    border:none;
+    border-bottom: 1px black solid;
+    width: 100%;
+}
+
+.custom_form-control:focus{
+    outline: none;
+    box-shadow: inset 0 4px 8px black;
+}
+
 /* header */
 
 header{
