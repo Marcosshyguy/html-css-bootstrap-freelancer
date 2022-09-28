@@ -15,24 +15,30 @@
     <link rel="stylesheet" href="css/custom-style.css" />
     <title>Bootstrap Freelancer</title>
   </head>
+
   <body>
     <!-- header -->
     <header class="bg-header color-wh position-fixed top-0 start-0">
       <div class="container-md">
-        <div class="row align-items-center">
-          <div class="col">
-            <h2>START BOOTSTRAP</h2>
-          </div>
-          <div class="col text-end">
-            <i class="fa-solid fa-bars d-md-none"></i>
-            <ul
-              class="d-none d-md-flex align-items-md-center justify-content-md-between"
-            >
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#about-us">About-Us</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+        <div class="row">
+            <div class="col-10 col-md-6">
+                <div class="custom_brand">
+                    <p><strong>START BOOTSTRAP</strong></p>
+                </div>
+            </div>
+            
+            <div class="col-2 col-md-6 text-end">
+                <div>
+                    <i class="fa-solid fa-bars d-md d-none"></i>
+                </div>
+                <ul
+                class="d-none d-md-flex align-items-md-center justify-content-md-between">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about-us">About-Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
         </div>
       </div>
     </header>
@@ -62,7 +68,7 @@
       <!-- main -->
       <!-- 1section -->
       <section id="portfolio" class="text-center custom_py-1">
-        <div class="container">
+        <div class="container-md">
           <h2>Portfolio</h2>
           <div
             class="underline-star mb-3 d-flex justify-content-center align-items-center"
@@ -73,33 +79,33 @@
             </div>
             <div class="white-line">&nbsp;</div>
           </div>
-          <div class="row gy-3">
-            <div class="col-12 col-sm-6 col-lg-4">
+          <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="box">
                 <img class="rounded-2" src="img/cake.png" alt="" />
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="box">
                 <img class="rounded-2" src="img/cabin.png" alt="" />
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="box">
                 <img class="rounded-2" src="img/circus.png" alt="" />
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="box">
                 <img class="rounded-2" src="img/game.png" alt="" />
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="box">
                 <img class="rounded-2" src="img/safe.png" alt="" />
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="box">
                 <img class="rounded-2" src="img/submarine.png" alt="" />
               </div>
@@ -111,7 +117,7 @@
 
       <!-- 2section -->
       <section id="about-us" class="color-wh bg-main custom_py-1">
-        <div class="custom-wrapper text-center">
+        <div class="custom-wrapper container-fluid text-center">
           <h2>ABOUT-US</h2>
           <div
             class="underline-star mb-3 d-flex justify-content-center align-items-center"
@@ -122,8 +128,8 @@
             </div>
             <div class="white-line bg-white">&nbsp;</div>
           </div>
-          <div class="row text-start gy-2">
-            <div class="col-12 col-sm-6">
+          <div class="row text-start g-3">
+            <div class="col-12 col-md-6">
               <div class="box">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non at
                 error expedita veniam officiis obcaecati ducimus ea quo possimus
@@ -134,7 +140,7 @@
                 est quidem, dignissimos repellat? Atque, ex itaque.
               </div>
             </div>
-            <div class="col-12 col-sm-6">
+            <div class="col-12 col-md-6">
               <div class="box">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non at
                 error expedita veniam officiis obcaecati ducimus ea quo possimus
@@ -156,7 +162,7 @@
 
       <!-- 3section -->
       <section id="contact-me" class="text-center custom_py-1">
-        <div class="custom-wrapper">
+        <div class="custom-wrapper container-fluid">
           <h2>CONTACT-US</h2>
           <div
             class="underline-star mb-3 d-flex justify-content-center align-items-center"
@@ -209,7 +215,7 @@
       <div class="top-footer bg-footer custom_py-1">
         <div class="container container-sm container-lg">
           <div class="row text-center gy-2">
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-md-4">
               <div class="box">
                 <h5>Location</h5>
                 <p>
@@ -220,7 +226,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-md-4">
               <div class="box d">
                 <h5>Around The Web</h5>
                 <ul
@@ -233,7 +239,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-md-4">
                   <div class="box">
                 <h5>About Freelancer</h5>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
@@ -248,7 +254,7 @@
       <!-- end top-footer -->
 
       <!-- bottom-footer -->
-      <div class="bottom-footer bg-header">
+      <div class="bottom-footer bg-header ">
         <p class="text-center">Copyright your website 2019</p>
       </div>
       <!-- end bottom-footer -->
