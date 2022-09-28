@@ -66,9 +66,12 @@ a{
     background-color: black;
 }
 
+/* custom btn */
 
-
-
+.btn.cutom_btn-primary{
+    background-color: var(--primary-bg);
+    color: white;
+}
 
 /* header */
 
